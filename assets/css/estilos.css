@@ -1,0 +1,433 @@
+@font-face {
+    font-family: 'iconitos';
+    src:  url('../font/iconos/icomoon.eot?5n8kgk');
+    src:  url('../font/iconos/icomoon.eot?5n8kgk#iefix') format('embedded-opentype'),
+      url('../font/iconos/icomoon.ttf?5n8kgk') format('truetype'),
+      url('../font/iconos/icomoon.woff?5n8kgk') format('woff'),
+      url('../font/iconos/icomoon.svg?5n8kgk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: 'poppins';
+    src:  url('../font/Poppins/Poppins-Medium.ttf');
+    src:  url('../font/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #1b691a;
+}
+
+header .logo img {
+    width: 230px;
+}
+
+header .lista ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .lista ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 25px;
+}
+
+header .btn-busqueda {
+    float: right;
+    margin: 20px 80px 0px 0px;
+}
+
+header .logo, header .lista, header .btn-busqueda, header .btn-sidebar {
+    display: inline-block;
+}
+
+header .btn-sidebar {
+    display: none;
+    float: right;
+}
+
+header .btn-sidebar img {
+
+    width: 30px;
+    height: 30px;
+}
+
+header .logo {
+    margin: 30px 0px 25px 90px;
+}
+
+header .lista {
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+header .lista .casa::after {
+    font-family: 'iconitos';
+    content: '\f015';
+}
+
+header .lista .carpeta::after {
+    font-family: 'iconitos';
+    content: '\f115';
+}
+
+header .btn-busqueda {
+    background: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+header .btn-busqueda :hover {
+    background: black;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+}
+
+header .btn-busqueda .boton {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+header .btn-busqueda .boton .lupa::before {
+    font-family: 'iconitos';
+    content: '\f002';
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+nav {
+    margin-left: 60px;
+}
+
+nav ul {
+    margin: 10px 0px 0px 0px;
+}
+
+nav  ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1b681d;
+}
+
+nav .discord::before {
+    font-family: 'iconitos';
+    content: '\e900';
+}
+
+nav .engranaje::before {
+    font-family: 'iconitos';
+    content: '\f085';
+}
+
+nav .play::after {
+    font-family: 'iconitos';
+    content: '\ea1c';
+}
+
+section {
+    margin: 10px 0px 0px 100px;
+}
+
+section article {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+section article:first-child {
+    margin-right: 100px;
+}
+
+section .par-art {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #666666;
+    width: 80%;
+}
+
+section .titulo {
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+section .titulo h3 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+section .titulo {
+    margin-bottom: 10px;
+}
+
+section .titulo .rayo {
+    width: 35px;
+    height: 35px;
+    background: #1b681d;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+section .titulo .rayo::before {
+    font-family: 'iconitos';
+    content: '\f0e7';
+}
+
+section .titulo h3, section .titulo span {
+    display: inline-block;
+}
+
+section .articulos .portada, section .articulos .contenido {
+    display: inline-block;
+}
+
+section .articulos .portada img {
+    height: 150px;
+}
+
+section .articulos .contenido {
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+section .articulos .contenido .titulo-manga h4 {
+    margin: 0px 0px 10px 0px;
+}
+
+section .articulos .contenido .puntuacion .puntuacion-ico {
+    margin: 0px 10px 20px 0px;
+}
+
+section .articulos .contenido .puntuacion .puntuacion-ico .estrella::before {
+    font-family: 'iconitos';
+    content: '\e9d9';
+    color: #1b691a;
+}
+
+section .articulos .contenido .puntuacion .puntuacion-ico .estrella-media::before {
+    font-family: 'iconitos';
+    content: '\e9d8';
+    color: #1b691a;
+}
+
+section .articulos .contenido .puntuacion .puntuacion-ico, section .articulos .contenido .puntuacion div {
+    display: inline-block;
+}
+
+section .articulos .contenido .puntuacion div p {
+    margin: 0px;
+}
+
+section .articulos .contenido .capitulos .penult-cap a, section .articulos .contenido .capitulos .penult-cap p {
+    display: inline-block;
+}
+
+section .articulos .contenido .capitulos a {
+    text-decoration: none;
+    background: #ebebeb;
+    color: #666666;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 35px;
+}
+
+section .articulos .contenido .capitulos a:hover {
+    background: #1b681d;
+    color: white; 
+}
+
+section .articulos .contenido .capitulos .ult-cap .new {
+    background: #cc374e;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0px;
+}
+
+section .articulos .contenido .capitulos .ult-cap {
+    margin-bottom: 15px;
+}
+
+section .articulos .contenido .capitulos .penult-cap p {
+   margin: 0px;
+}
+
+footer .genero{
+    background: #f3f3f3;
+    border-bottom: 5px solid #1b681d;
+    margin: 0px 100px;
+    text-align: center;
+}
+
+footer .genero .titulo h6{
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin: 0px;
+}
+footer .genero .titulo {
+    background: #1b681d;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+footer .genero .lista-genero ol li{
+    background: white;
+    color: black;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+footer .genero .lista-genero ol{
+    text-align: left;
+    margin: 5px 20px;
+    padding: 0px;
+}
+
+footer .lista-footer{
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer .lista-footer ul li{
+    display: inline-block;
+    border-right: 1px solid gray;
+    margin: 0px;
+    padding: 0px 30px;
+}
+
+footer .lista-footer ul li {
+    text-transform: uppercase;
+}
+
+footer .lista-footer ul li:nth-child(2) {
+    text-transform: none;
+}
+
+footer .lista-footer ul li a {
+    text-decoration: none;
+    color: #222;
+}
+
+footer .lista-footer ul li:last-child{
+    border-right: 0px;
+}
+
+
+footer .lista-footer ul{
+    margin: 0px auto;
+}
+
+footer .copy {
+    text-align: center;
+    margin: 10px 100px 0px 100px;
+    color: #666666;
+}
+
+@media only screen and (max-width: 1260px) {
+
+    section article:first-child {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1005px) {
+
+    header .lista {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    header .logo {
+        margin: 10px;
+    }
+
+    nav {
+        margin-left: 0px;
+    }
+
+    section {
+        margin: 10px 0px 0px 10px;
+    }
+    
+    header .btn-busqueda {
+        margin-right: 20px;
+    }
+
+    header .btn-sidebar {
+        margin: 20px 30px 0px 0px;
+        display: block;
+    }
+
+    section article:first-child {
+        margin-right: 0px;
+    }
+
+    section .par-art {
+        width: 100%;
+    }
+
+    section .articulos .portada img {
+        height: 150px;
+    }
+    
+    section .par-art {
+        border-bottom: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    
+  }
+
+
+@media only screen and (max-width: 420px) {
+    section .articulos .contenido .capitulos .penult-cap p{
+        width: 50%;
+    }
+
+    section .par-art {
+        width: 100%;
+    }
+
+    section .articulos .contenido .capitulos .ult-cap a {
+        margin-right: 0px;
+    }
+
+    section .articulos .contenido {
+        width: 50%;
+    }
+}
